@@ -1,0 +1,10 @@
+Input:
+{
+ "service": "{service}",
+ "expression": "{expression}",
+ "snapshot": {snapshot}
+}
+
+Answer:
+Reason first, then give the final answer as one JSON object matching the schema above.
+Let's think step-by-step.

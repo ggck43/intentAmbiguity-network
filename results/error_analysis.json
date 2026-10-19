@@ -1,0 +1,311 @@
+{
+ "Qwen3.5-4B|zero-shot": {
+  "errors": {
+   "missed": 96,
+   "spurious": 34,
+   "wrong op/cmp": 571,
+   "wrong value/unit": 106
+  },
+  "by_metric": {
+   "cpu_utilization": 162,
+   "storage_utilization": 127,
+   "memory_utilization": 116,
+   "memory_capacity": 105
+  },
+  "extremum": {
+   "right op, value null (snapshot not read)": 59,
+   "right op, correct number": 88,
+   "right op, wrong number": 48,
+   "metric not predicted": 18,
+   "wrong op (e.g. threshold / opposite extreme)": 8
+  }
+ },
+ "Qwen3.5-4B|zero-shot + thinking": {
+  "errors": {
+   "missed": 12,
+   "spurious": 1,
+   "wrong op/cmp": 360,
+   "wrong value/unit": 165
+  },
+  "by_metric": {
+   "cpu_utilization": 111,
+   "storage_utilization": 106,
+   "memory_utilization": 87,
+   "memory_capacity": 85
+  },
+  "extremum": {
+   "right op, value null (snapshot not read)": 159,
+   "right op, wrong number": 14,
+   "metric not predicted": 5,
+   "right op, correct number": 32,
+   "wrong op (e.g. threshold / opposite extreme)": 11
+  }
+ },
+ "Qwen3.5-4B|few-shot": {
+  "errors": {
+   "missed": 1,
+   "spurious": 63,
+   "wrong op/cmp": 39,
+   "wrong value/unit": 104
+  },
+  "by_metric": {
+   "placement_location": 62,
+   "memory_capacity": 47,
+   "storage_utilization": 32,
+   "storage_capacity": 27
+  },
+  "extremum": {
+   "right op, correct number": 158,
+   "right op, wrong number": 61,
+   "metric not predicted": 1,
+   "wrong op (e.g. threshold / opposite extreme)": 1
+  }
+ },
+ "Qwen3.5-4B|few-shot + thinking": {
+  "errors": {
+   "wrong value/unit": 55
+  },
+  "by_metric": {
+   "memory_capacity": 21,
+   "cpu_utilization": 9,
+   "storage_utilization": 9,
+   "storage_capacity": 6
+  },
+  "extremum": {
+   "right op, correct number": 166,
+   "right op, wrong number": 55
+  }
+ },
+ "Qwen3.5-9B|zero-shot": {
+  "errors": {
+   "missed": 28,
+   "spurious": 4,
+   "wrong op/cmp": 75,
+   "wrong value/unit": 108
+  },
+  "by_metric": {
+   "memory_capacity": 41,
+   "cpu_utilization": 38,
+   "storage_utilization": 35,
+   "port_utilization": 33
+  },
+  "extremum": {
+   "right op, correct number": 35,
+   "right op, wrong number": 20,
+   "wrong op (e.g. threshold / opposite extreme)": 49,
+   "right op, value null (snapshot not read)": 109,
+   "metric not predicted": 8
+  }
+ },
+ "Qwen3.5-9B|zero-shot + thinking": {
+  "errors": {
+   "missed": 53,
+   "spurious": 9,
+   "wrong op/cmp": 14,
+   "wrong value/unit": 146
+  },
+  "by_metric": {
+   "memory_capacity": 53,
+   "storage_utilization": 47,
+   "port_utilization": 41,
+   "cpu_utilization": 38
+  },
+  "extremum": {
+   "right op, value null (snapshot not read)": 143,
+   "metric not predicted": 40,
+   "right op, correct number": 22,
+   "wrong op (e.g. threshold / opposite extreme)": 15,
+   "right op, wrong number": 1
+  }
+ },
+ "Qwen3.5-9B|few-shot": {
+  "errors": {
+   "spurious": 3,
+   "wrong op/cmp": 25,
+   "wrong value/unit": 61
+  },
+  "by_metric": {
+   "memory_capacity": 40,
+   "port_utilization": 13,
+   "cpu_utilization": 12,
+   "storage_utilization": 8
+  },
+  "extremum": {
+   "right op, correct number": 154,
+   "right op, wrong number": 67
+  }
+ },
+ "Qwen3.5-9B|few-shot + thinking": {
+  "errors": {
+   "wrong value/unit": 61
+  },
+  "by_metric": {
+   "memory_capacity": 25,
+   "storage_utilization": 10,
+   "cpu_utilization": 9,
+   "storage_capacity": 6
+  },
+  "extremum": {
+   "right op, correct number": 160,
+   "right op, wrong number": 61
+  }
+ },
+ "Gemma 4 E2B|zero-shot": {
+  "errors": {
+   "missed": 239,
+   "spurious": 70,
+   "unparseable": 6,
+   "wrong op/cmp": 535,
+   "wrong value/unit": 130
+  },
+  "by_metric": {
+   "placement_location": 222,
+   "cpu_utilization": 159,
+   "storage_utilization": 141,
+   "memory_capacity": 123
+  },
+  "extremum": {
+   "right op, value null (snapshot not read)": 101,
+   "right op, correct number": 36,
+   "metric not predicted": 46,
+   "right op, wrong number": 33,
+   "wrong op (e.g. threshold / opposite extreme)": 4,
+   "unparseable record": 1
+  }
+ },
+ "Gemma 4 E2B|zero-shot + thinking": {
+  "errors": {
+   "missed": 140,
+   "spurious": 62,
+   "wrong op/cmp": 462,
+   "wrong value/unit": 132
+  },
+  "by_metric": {
+   "cpu_utilization": 142,
+   "placement_location": 142,
+   "storage_utilization": 138,
+   "memory_utilization": 109
+  },
+  "extremum": {
+   "right op, value null (snapshot not read)": 118,
+   "right op, wrong number": 11,
+   "metric not predicted": 54,
+   "right op, correct number": 34,
+   "wrong op (e.g. threshold / opposite extreme)": 4
+  }
+ },
+ "Gemma 4 E2B|few-shot": {
+  "errors": {
+   "missed": 12,
+   "spurious": 162,
+   "wrong op/cmp": 170,
+   "wrong value/unit": 184
+  },
+  "by_metric": {
+   "placement_location": 121,
+   "cpu_utilization": 94,
+   "storage_capacity": 89,
+   "memory_capacity": 83
+  },
+  "extremum": {
+   "wrong op (e.g. threshold / opposite extreme)": 51,
+   "right op, correct number": 115,
+   "right op, wrong number": 51,
+   "metric not predicted": 4
+  }
+ },
+ "Gemma 4 E2B|few-shot + thinking": {
+  "errors": {
+   "missed": 2,
+   "spurious": 24,
+   "wrong op/cmp": 40,
+   "wrong value/unit": 63
+  },
+  "by_metric": {
+   "port_utilization": 23,
+   "placement_location": 23,
+   "memory_capacity": 20,
+   "storage_utilization": 16
+  },
+  "extremum": {
+   "right op, correct number": 158,
+   "right op, wrong number": 33,
+   "wrong op (e.g. threshold / opposite extreme)": 29,
+   "metric not predicted": 1
+  }
+ },
+ "Gemma 4 E4B|zero-shot": {
+  "errors": {
+   "missed": 28,
+   "spurious": 9,
+   "wrong op/cmp": 67,
+   "wrong value/unit": 155
+  },
+  "by_metric": {
+   "memory_capacity": 54,
+   "storage_utilization": 52,
+   "cpu_utilization": 37,
+   "storage_capacity": 35
+  },
+  "extremum": {
+   "right op, value null (snapshot not read)": 201,
+   "metric not predicted": 5,
+   "right op, correct number": 14,
+   "right op, wrong number": 1
+  }
+ },
+ "Gemma 4 E4B|zero-shot + thinking": {
+  "errors": {
+   "wrong op/cmp": 38,
+   "wrong value/unit": 159
+  },
+  "by_metric": {
+   "storage_utilization": 43,
+   "cpu_utilization": 38,
+   "memory_capacity": 36,
+   "port_utilization": 28
+  },
+  "extremum": {
+   "right op, correct number": 66,
+   "right op, wrong number": 12,
+   "right op, value null (snapshot not read)": 138,
+   "wrong op (e.g. threshold / opposite extreme)": 5
+  }
+ },
+ "Gemma 4 E4B|few-shot": {
+  "errors": {
+   "missed": 3,
+   "wrong op/cmp": 26,
+   "wrong value/unit": 116
+  },
+  "by_metric": {
+   "memory_capacity": 44,
+   "cpu_utilization": 36,
+   "storage_capacity": 25,
+   "storage_utilization": 15
+  },
+  "extremum": {
+   "right op, correct number": 155,
+   "right op, wrong number": 66
+  }
+ },
+ "Gemma 4 E4B|few-shot + thinking": {
+  "errors": {
+   "missed": 1,
+   "spurious": 1,
+   "wrong op/cmp": 12,
+   "wrong value/unit": 58
+  },
+  "by_metric": {
+   "memory_capacity": 28,
+   "storage_utilization": 14,
+   "cpu_utilization": 9,
+   "port_utilization": 8
+  },
+  "extremum": {
+   "right op, correct number": 165,
+   "right op, wrong number": 55,
+   "metric not predicted": 1
+  }
+ }
+}

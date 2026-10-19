@@ -1,0 +1,511 @@
+{
+  "timestamp": "2026-04-25T23:12:00.393306+00:00",
+  "node_count": 6,
+  "nodes": [
+    {
+      "name": "edge-node",
+      "ip": "100.115.42.115",
+      "layer": "edge",
+      "role": "worker",
+      "architecture": "arm64",
+      "os_image": "Ubuntu 24.04 LTS",
+      "cpu_cores": "4",
+      "memory_bytes": 8318894080,
+      "ephemeral_storage": "60762480Ki",
+      "gpu_cores": "0",
+      "labels": {
+        "beta.kubernetes.io/arch": "arm64",
+        "beta.kubernetes.io/instance-type": "k3s",
+        "beta.kubernetes.io/os": "linux",
+        "kubernetes.io/arch": "arm64",
+        "kubernetes.io/hostname": "edge-node",
+        "kubernetes.io/os": "linux",
+        "layer": "edge",
+        "node.kubernetes.io/instance-type": "k3s"
+      },
+      "cpu_capacity_millicores": 4000.0,
+      "memory_capacity_bytes": 8318894080,
+      "utilization_now": {
+        "cpu_usage_millicores": null,
+        "cpu_capacity_millicores": 4000.0,
+        "cpu_util_percent": null,
+        "memory_usage_bytes": null,
+        "memory_capacity_bytes": 8318894080,
+        "memory_util_percent": null,
+        "storage_total_bytes": null,
+        "storage_used_bytes": null,
+        "storage_avail_bytes": null,
+        "storage_util_percent": null,
+        "port_util_percent": null
+      },
+      "single_point_network_now": {},
+      "storage_now": {
+        "storage_total_bytes": null,
+        "storage_used_bytes": null,
+        "storage_avail_bytes": null,
+        "storage_util_percent": null
+      }
+    },
+    {
+      "name": "ip-172-31-20-226",
+      "ip": "100.82.178.45",
+      "layer": "cloud",
+      "role": "worker",
+      "architecture": "amd64",
+      "os_image": "Ubuntu 22.04.5 LTS",
+      "cpu_cores": "2",
+      "memory_bytes": 958431232,
+      "ephemeral_storage": "7941576Ki",
+      "gpu_cores": "0",
+      "labels": {
+        "beta.kubernetes.io/arch": "amd64",
+        "beta.kubernetes.io/instance-type": "k3s",
+        "beta.kubernetes.io/os": "linux",
+        "kubernetes.io/arch": "amd64",
+        "kubernetes.io/hostname": "ip-172-31-20-226",
+        "kubernetes.io/os": "linux",
+        "layer": "cloud",
+        "node.kubernetes.io/instance-type": "k3s",
+        "ts_ip": "100.82.178.45"
+      },
+      "cpu_capacity_millicores": 2000.0,
+      "memory_capacity_bytes": 958431232,
+      "utilization_now": {
+        "cpu_usage_millicores": 21.454282,
+        "cpu_capacity_millicores": 2000.0,
+        "cpu_util_percent": 1.0727141,
+        "memory_usage_bytes": 347701248,
+        "memory_capacity_bytes": 958431232,
+        "memory_util_percent": 36.27816335601217,
+        "storage_total_bytes": 8132173824,
+        "storage_used_bytes": 4632367104,
+        "storage_avail_bytes": 3483029504,
+        "storage_util_percent": 57.0,
+        "port_util_percent": 0.04679361979166667
+      },
+      "single_point_network_now": {
+        "rx_Bps": 8126.5,
+        "tx_Bps": 18157.0,
+        "sockets_used": 222,
+        "tcp_established": 23,
+        "port_util_percent": 0.04679361979166667
+      },
+      "storage_now": {
+        "storage_total_bytes": 8132173824,
+        "storage_used_bytes": 4632367104,
+        "storage_avail_bytes": 3483029504,
+        "storage_util_percent": 57.0
+      }
+    },
+    {
+      "name": "ip-172-31-24-19",
+      "ip": "100.107.139.40",
+      "layer": "cloud",
+      "role": "worker",
+      "architecture": "amd64",
+      "os_image": "Ubuntu 22.04.5 LTS",
+      "cpu_cores": "2",
+      "memory_bytes": 2003333120,
+      "ephemeral_storage": "7941576Ki",
+      "gpu_cores": "0",
+      "labels": {
+        "beta.kubernetes.io/arch": "amd64",
+        "beta.kubernetes.io/instance-type": "k3s",
+        "beta.kubernetes.io/os": "linux",
+        "kubernetes.io/arch": "amd64",
+        "kubernetes.io/hostname": "ip-172-31-24-19",
+        "kubernetes.io/os": "linux",
+        "layer": "cloud",
+        "node.kubernetes.io/instance-type": "k3s"
+      },
+      "cpu_capacity_millicores": 2000.0,
+      "memory_capacity_bytes": 2003333120,
+      "utilization_now": {
+        "cpu_usage_millicores": 19.257042,
+        "cpu_capacity_millicores": 2000.0,
+        "cpu_util_percent": 0.9628520999999999,
+        "memory_usage_bytes": 731181056,
+        "memory_capacity_bytes": 2003333120,
+        "memory_util_percent": 36.49822631595089,
+        "storage_total_bytes": 8132173824,
+        "storage_used_bytes": 4449325056,
+        "storage_avail_bytes": 3666071552,
+        "storage_util_percent": 55.0,
+        "port_util_percent": 0.04475911458333333
+      },
+      "single_point_network_now": {
+        "rx_Bps": 11935.0,
+        "tx_Bps": 25101.0,
+        "sockets_used": 222,
+        "tcp_established": 22,
+        "port_util_percent": 0.04475911458333333
+      },
+      "storage_now": {
+        "storage_total_bytes": 8132173824,
+        "storage_used_bytes": 4449325056,
+        "storage_avail_bytes": 3666071552,
+        "storage_util_percent": 55.0
+      }
+    },
+    {
+      "name": "koush",
+      "ip": "100.94.117.86",
+      "layer": "edge",
+      "role": "master",
+      "architecture": "arm64",
+      "os_image": "Ubuntu 24.04.3 LTS",
+      "cpu_cores": "4",
+      "memory_bytes": 8181379072,
+      "ephemeral_storage": "60762480Ki",
+      "gpu_cores": "0",
+      "labels": {
+        "beta.kubernetes.io/arch": "arm64",
+        "beta.kubernetes.io/instance-type": "k3s",
+        "beta.kubernetes.io/os": "linux",
+        "kubernetes.io/arch": "arm64",
+        "kubernetes.io/hostname": "koush",
+        "kubernetes.io/os": "linux",
+        "layer": "edge",
+        "node-role.kubernetes.io/control-plane": "true",
+        "node-role.kubernetes.io/master": "true",
+        "node.kubernetes.io/instance-type": "k3s"
+      },
+      "cpu_capacity_millicores": 4000.0,
+      "memory_capacity_bytes": 8181379072,
+      "utilization_now": {
+        "cpu_usage_millicores": 391.093518,
+        "cpu_capacity_millicores": 4000.0,
+        "cpu_util_percent": 9.777337950000001,
+        "memory_usage_bytes": 3809325056,
+        "memory_capacity_bytes": 8181379072,
+        "memory_util_percent": 46.56091622788946,
+        "storage_total_bytes": 62220779520,
+        "storage_used_bytes": 13414473728,
+        "storage_avail_bytes": 46173716480,
+        "storage_util_percent": 23.0,
+        "port_util_percent": 0.16886393229166669
+      },
+      "single_point_network_now": {
+        "rx_Bps": 134893.0,
+        "tx_Bps": 478324.0,
+        "sockets_used": 1296,
+        "tcp_established": 83,
+        "port_util_percent": 0.16886393229166669
+      },
+      "storage_now": {
+        "storage_total_bytes": 62220779520,
+        "storage_used_bytes": 13414473728,
+        "storage_avail_bytes": 46173716480,
+        "storage_util_percent": 23.0
+      }
+    },
+    {
+      "name": "pi-edge-1",
+      "ip": "192.168.50.197",
+      "layer": "edge",
+      "role": "worker",
+      "architecture": "arm64",
+      "os_image": "Ubuntu 24.04.3 LTS",
+      "cpu_cores": "4",
+      "memory_bytes": 3968221184,
+      "ephemeral_storage": "29218328Ki",
+      "gpu_cores": "0",
+      "labels": {
+        "beta.kubernetes.io/arch": "arm64",
+        "beta.kubernetes.io/instance-type": "k3s",
+        "beta.kubernetes.io/os": "linux",
+        "continuum": "edge",
+        "kubernetes.io/arch": "arm64",
+        "kubernetes.io/hostname": "pi-edge-1",
+        "kubernetes.io/os": "linux",
+        "layer": "edge",
+        "node.kubernetes.io/instance-type": "k3s"
+      },
+      "cpu_capacity_millicores": 4000.0,
+      "memory_capacity_bytes": 3968221184,
+      "utilization_now": {
+        "cpu_usage_millicores": 295.152656,
+        "cpu_capacity_millicores": 4000.0,
+        "cpu_util_percent": 7.378816399999999,
+        "memory_usage_bytes": 1713717248,
+        "memory_capacity_bytes": 3968221184,
+        "memory_util_percent": 43.18603143669927,
+        "storage_total_bytes": 29919567872,
+        "storage_used_bytes": 15213375488,
+        "storage_avail_bytes": 13386305536,
+        "storage_util_percent": 53.0,
+        "port_util_percent": 0.050862630208333336
+      },
+      "single_point_network_now": {
+        "rx_Bps": 826344.5,
+        "tx_Bps": 600426.0,
+        "sockets_used": 1005,
+        "tcp_established": 25,
+        "port_util_percent": 0.050862630208333336
+      },
+      "storage_now": {
+        "storage_total_bytes": 29919567872,
+        "storage_used_bytes": 15213375488,
+        "storage_avail_bytes": 13386305536,
+        "storage_util_percent": 53.0
+      }
+    },
+    {
+      "name": "ubuntu",
+      "ip": "100.81.149.67",
+      "layer": "edge",
+      "role": "worker",
+      "architecture": "arm64",
+      "os_image": "Ubuntu 24.04 LTS",
+      "cpu_cores": "4",
+      "memory_bytes": 3968221184,
+      "ephemeral_storage": "60762480Ki",
+      "gpu_cores": "0",
+      "labels": {
+        "beta.kubernetes.io/arch": "arm64",
+        "beta.kubernetes.io/instance-type": "k3s",
+        "beta.kubernetes.io/os": "linux",
+        "kubernetes.io/arch": "arm64",
+        "kubernetes.io/hostname": "ubuntu",
+        "kubernetes.io/os": "linux",
+        "layer": "edge",
+        "node.kubernetes.io/instance-type": "k3s"
+      },
+      "cpu_capacity_millicores": 4000.0,
+      "memory_capacity_bytes": 3968221184,
+      "utilization_now": {
+        "cpu_usage_millicores": 161.871577,
+        "cpu_capacity_millicores": 4000.0,
+        "cpu_util_percent": 4.046789425,
+        "memory_usage_bytes": 1359953920,
+        "memory_capacity_bytes": 3968221184,
+        "memory_util_percent": 34.27112191939752,
+        "storage_total_bytes": 62220779520,
+        "storage_used_bytes": 10656198656,
+        "storage_avail_bytes": 48931991552,
+        "storage_util_percent": 18.0,
+        "port_util_percent": 0.048828125
+      },
+      "single_point_network_now": {
+        "rx_Bps": 23565.0,
+        "tx_Bps": 23357.5,
+        "sockets_used": 994,
+        "tcp_established": 24,
+        "port_util_percent": 0.048828125
+      },
+      "storage_now": {
+        "storage_total_bytes": 62220779520,
+        "storage_used_bytes": 10656198656,
+        "storage_avail_bytes": 48931991552,
+        "storage_util_percent": 18.0
+      }
+    }
+  ],
+  "pairwise_rtt": {
+    "method": "icmp_ping",
+    "hostNetwork": true,
+    "timestamp": "2026-01-18T13:57:55.413048Z",
+    "pairs": [
+      {
+        "src": "ip-172-31-20-226",
+        "src_ip": "100.82.178.45",
+        "dst": "edge-node",
+        "dst_ip": "100.115.42.115",
+        "rtt_ms": null,
+        "error": "ping_failed_rc=1: --- 100.115.42.115 ping statistics --- 1 packets transmitted, 0 packets received, 100% packet loss __RC:1"
+      },
+      {
+        "src": "ip-172-31-20-226",
+        "src_ip": "100.82.178.45",
+        "dst": "ip-172-31-24-19",
+        "dst_ip": "100.107.139.40",
+        "rtt_ms": 0.972,
+        "error": null
+      },
+      {
+        "src": "ip-172-31-20-226",
+        "src_ip": "100.82.178.45",
+        "dst": "koush",
+        "dst_ip": "100.94.117.86",
+        "rtt_ms": 13.235,
+        "error": null
+      },
+      {
+        "src": "ip-172-31-20-226",
+        "src_ip": "100.82.178.45",
+        "dst": "pi-edge-1",
+        "dst_ip": "192.168.50.197",
+        "rtt_ms": null,
+        "error": "ping_failed_rc=1: --- 192.168.50.197 ping statistics --- 1 packets transmitted, 0 packets received, 100% packet loss __RC:1"
+      },
+      {
+        "src": "ip-172-31-20-226",
+        "src_ip": "100.82.178.45",
+        "dst": "ubuntu",
+        "dst_ip": "100.81.149.67",
+        "rtt_ms": 20.149,
+        "error": null
+      },
+      {
+        "src": "ip-172-31-24-19",
+        "src_ip": "100.107.139.40",
+        "dst": "edge-node",
+        "dst_ip": "100.115.42.115",
+        "rtt_ms": null,
+        "error": "ping_failed_rc=1: --- 100.115.42.115 ping statistics --- 1 packets transmitted, 0 packets received, 100% packet loss __RC:1"
+      },
+      {
+        "src": "ip-172-31-24-19",
+        "src_ip": "100.107.139.40",
+        "dst": "ip-172-31-20-226",
+        "dst_ip": "100.82.178.45",
+        "rtt_ms": 0.734,
+        "error": null
+      },
+      {
+        "src": "ip-172-31-24-19",
+        "src_ip": "100.107.139.40",
+        "dst": "koush",
+        "dst_ip": "100.94.117.86",
+        "rtt_ms": 12.487,
+        "error": null
+      },
+      {
+        "src": "ip-172-31-24-19",
+        "src_ip": "100.107.139.40",
+        "dst": "pi-edge-1",
+        "dst_ip": "192.168.50.197",
+        "rtt_ms": null,
+        "error": "ping_failed_rc=1: --- 192.168.50.197 ping statistics --- 1 packets transmitted, 0 packets received, 100% packet loss __RC:1"
+      },
+      {
+        "src": "ip-172-31-24-19",
+        "src_ip": "100.107.139.40",
+        "dst": "ubuntu",
+        "dst_ip": "100.81.149.67",
+        "rtt_ms": 20.027,
+        "error": null
+      },
+      {
+        "src": "koush",
+        "src_ip": "100.94.117.86",
+        "dst": "edge-node",
+        "dst_ip": "100.115.42.115",
+        "rtt_ms": null,
+        "error": "ping_failed_rc=1: --- 100.115.42.115 ping statistics --- 1 packets transmitted, 0 packets received, 100% packet loss __RC:1"
+      },
+      {
+        "src": "koush",
+        "src_ip": "100.94.117.86",
+        "dst": "ip-172-31-20-226",
+        "dst_ip": "100.82.178.45",
+        "rtt_ms": 16.655,
+        "error": null
+      },
+      {
+        "src": "koush",
+        "src_ip": "100.94.117.86",
+        "dst": "ip-172-31-24-19",
+        "dst_ip": "100.107.139.40",
+        "rtt_ms": 14.416,
+        "error": null
+      },
+      {
+        "src": "koush",
+        "src_ip": "100.94.117.86",
+        "dst": "pi-edge-1",
+        "dst_ip": "192.168.50.197",
+        "rtt_ms": 18.083,
+        "error": null
+      },
+      {
+        "src": "koush",
+        "src_ip": "100.94.117.86",
+        "dst": "ubuntu",
+        "dst_ip": "100.81.149.67",
+        "rtt_ms": 11.034,
+        "error": null
+      },
+      {
+        "src": "pi-edge-1",
+        "src_ip": "192.168.50.197",
+        "dst": "edge-node",
+        "dst_ip": "100.115.42.115",
+        "rtt_ms": null,
+        "error": "ping_failed_rc=1: --- 100.115.42.115 ping statistics --- 1 packets transmitted, 0 packets received, 100% packet loss __RC:1"
+      },
+      {
+        "src": "pi-edge-1",
+        "src_ip": "192.168.50.197",
+        "dst": "ip-172-31-20-226",
+        "dst_ip": "100.82.178.45",
+        "rtt_ms": 15.861,
+        "error": null
+      },
+      {
+        "src": "pi-edge-1",
+        "src_ip": "192.168.50.197",
+        "dst": "ip-172-31-24-19",
+        "dst_ip": "100.107.139.40",
+        "rtt_ms": 10.163,
+        "error": null
+      },
+      {
+        "src": "pi-edge-1",
+        "src_ip": "192.168.50.197",
+        "dst": "koush",
+        "dst_ip": "100.94.117.86",
+        "rtt_ms": 12.851,
+        "error": null
+      },
+      {
+        "src": "pi-edge-1",
+        "src_ip": "192.168.50.197",
+        "dst": "ubuntu",
+        "dst_ip": "100.81.149.67",
+        "rtt_ms": 4.352,
+        "error": null
+      },
+      {
+        "src": "ubuntu",
+        "src_ip": "100.81.149.67",
+        "dst": "edge-node",
+        "dst_ip": "100.115.42.115",
+        "rtt_ms": null,
+        "error": "ping_failed_rc=1: --- 100.115.42.115 ping statistics --- 1 packets transmitted, 0 packets received, 100% packet loss __RC:1"
+      },
+      {
+        "src": "ubuntu",
+        "src_ip": "100.81.149.67",
+        "dst": "ip-172-31-20-226",
+        "dst_ip": "100.82.178.45",
+        "rtt_ms": 12.758,
+        "error": null
+      },
+      {
+        "src": "ubuntu",
+        "src_ip": "100.81.149.67",
+        "dst": "ip-172-31-24-19",
+        "dst_ip": "100.107.139.40",
+        "rtt_ms": 39.241,
+        "error": null
+      },
+      {
+        "src": "ubuntu",
+        "src_ip": "100.81.149.67",
+        "dst": "koush",
+        "dst_ip": "100.94.117.86",
+        "rtt_ms": 19.451,
+        "error": null
+      },
+      {
+        "src": "ubuntu",
+        "src_ip": "100.81.149.67",
+        "dst": "pi-edge-1",
+        "dst_ip": "192.168.50.197",
+        "rtt_ms": 9.33,
+        "error": null
+      }
+    ]
+  }
+}

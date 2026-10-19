@@ -1,0 +1,12 @@
+# Scoring, analysis, tables and figures (system Python):
+numpy
+pandas
+matplotlib
+pytest
+nbformat
+nbclient
+ipykernel
+# Generation (use a separate venv; vllm pins its own torch):
+#   vllm==0.31.0
+#   transformers==5.17.0
+#   huggingface_hub

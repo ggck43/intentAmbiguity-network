@@ -1,0 +1,19 @@
+\begin{tabular}{llcccccc}
+\toprule
+ & & \multicolumn{3}{c}{Zero-shot (millicores prompt)} & \multicolumn{3}{c}{Few-shot (fs-f2)} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+Model & Thinking & Real & Synthetic & Total & Real & Synthetic & Total \\
+\midrule
+Qwen3.5-4B & off & 0.310 & 0.364 & 0.348 & 0.804 & 0.875 & 0.854 \\
+ & on & 0.514 & 0.555 & 0.543 & 0.997 & 0.935 & \textbf{0.953} \\
+\midrule
+Qwen3.5-9B & off & 0.789 & 0.844 & 0.828 & 0.949 & 0.915 & 0.925 \\
+ & on & 0.790 & \textbf{0.852} & \textbf{0.833} & \textbf{1.000} & 0.926 & 0.948 \\
+\midrule
+Gemma 4 E2B & off & 0.222 & 0.247 & 0.239 & 0.599 & 0.665 & 0.645 \\
+ & on & 0.430 & 0.366 & 0.385 & 0.819 & \textbf{0.936} & 0.902 \\
+\midrule
+Gemma 4 E4B & off & 0.743 & 0.813 & 0.793 & 0.837 & 0.894 & 0.877 \\
+ & on & \textbf{0.801} & 0.844 & 0.831 & 0.974 & 0.925 & 0.939 \\
+\bottomrule
+\end{tabular}

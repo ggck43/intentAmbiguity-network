@@ -1,0 +1,208 @@
+{
+ "4B|P0 paper zero-shot": {
+  "off": {
+   "f1": 0.33421052631578946,
+   "em": 0.10748560460652591,
+   "cpu_cap_f1": 0.012903225806451615,
+   "memsto_cap_f1": 0.11013215859030837,
+   "wrong_tag": 526,
+   "null_lookups": 77,
+   "right_lookups": 79
+  },
+  "on": {
+   "f1": 0.5038560411311055,
+   "em": 0.22840690978886757,
+   "cpu_cap_f1": 0.0,
+   "memsto_cap_f1": 0.30406852248394006,
+   "wrong_tag": 340,
+   "null_lookups": 176,
+   "right_lookups": 36
+  }
+ },
+ "4B|P0 + CoT phrase": {
+  "off": {
+   "f1": 0.3802177858439202,
+   "em": 0.16122840690978887,
+   "cpu_cap_f1": 0.0,
+   "memsto_cap_f1": 0.12698412698412698,
+   "wrong_tag": 477,
+   "null_lookups": 95,
+   "right_lookups": 44
+  }
+ },
+ "4B|P1 millicores": {
+  "off": {
+   "f1": 0.3479789103690685,
+   "em": 0.11900191938579655,
+   "cpu_cap_f1": 0.06535947712418301,
+   "memsto_cap_f1": 0.11842105263157894,
+   "wrong_tag": 524,
+   "null_lookups": 59,
+   "right_lookups": 88
+  },
+  "on": {
+   "f1": 0.5431886549204985,
+   "em": 0.28790786948176583,
+   "cpu_cap_f1": 0.4125,
+   "memsto_cap_f1": 0.32976445396145615,
+   "wrong_tag": 339,
+   "null_lookups": 159,
+   "right_lookups": 32
+  },
+  "shift_f1": [
+   0.3088768115942029,
+   0.31199278629395855
+  ]
+ },
+ "4B|P2 few-shot fs1": {
+  "off": {
+   "f1": 0.7348324140857021,
+   "em": 0.4894433781190019,
+   "cpu_cap_f1": 0.0,
+   "memsto_cap_f1": 0.33760683760683763,
+   "wrong_tag": 189,
+   "null_lookups": 0,
+   "right_lookups": 154
+  },
+  "on": {
+   "f1": 0.7792985457656117,
+   "em": 0.5431861804222649,
+   "cpu_cap_f1": 0.0,
+   "memsto_cap_f1": 0.37179487179487186,
+   "wrong_tag": 0,
+   "null_lookups": 0,
+   "right_lookups": 173
+  },
+  "shift_f1": [
+   0.7958921694480102,
+   0.7212692967409949
+  ]
+ },
+ "4B|P3 few-shot fs2": {
+  "off": {
+   "f1": 0.8541666666666667,
+   "em": 0.6487523992322457,
+   "cpu_cap_f1": 0.975,
+   "memsto_cap_f1": 0.6837606837606838,
+   "wrong_tag": 2,
+   "null_lookups": 0,
+   "right_lookups": 158
+  },
+  "on": {
+   "f1": 0.9529512403763901,
+   "em": 0.8963531669865643,
+   "cpu_cap_f1": 0.975,
+   "memsto_cap_f1": 0.8846153846153846,
+   "wrong_tag": 0,
+   "null_lookups": 0,
+   "right_lookups": 166
+  },
+  "shift_f1": [
+   0.8668941979522184,
+   0.8425965210012728
+  ]
+ },
+ "9B|P0 paper zero-shot": {
+  "off": {
+   "f1": 0.7611231101511879,
+   "em": 0.5662188099808061,
+   "cpu_cap_f1": 0.0,
+   "memsto_cap_f1": 0.7363834422657953,
+   "wrong_tag": 48,
+   "null_lookups": 105,
+   "right_lookups": 32
+  },
+  "on": {
+   "f1": 0.7625272331154684,
+   "em": 0.54510556621881,
+   "cpu_cap_f1": 0.0,
+   "memsto_cap_f1": 0.7152317880794701,
+   "wrong_tag": 5,
+   "null_lookups": 152,
+   "right_lookups": 16
+  }
+ },
+ "9B|P0 + CoT phrase": {
+  "off": {
+   "f1": 0.7599653379549394,
+   "em": 0.5662188099808061,
+   "cpu_cap_f1": 0.0,
+   "memsto_cap_f1": 0.7445887445887446,
+   "wrong_tag": 40,
+   "null_lookups": 106,
+   "right_lookups": 35
+  }
+ },
+ "9B|P1 millicores": {
+  "off": {
+   "f1": 0.8280034572169404,
+   "em": 0.6698656429942419,
+   "cpu_cap_f1": 0.9375,
+   "memsto_cap_f1": 0.7402597402597402,
+   "wrong_tag": 41,
+   "null_lookups": 109,
+   "right_lookups": 35
+  },
+  "on": {
+   "f1": 0.8334786399302527,
+   "em": 0.6564299424184261,
+   "cpu_cap_f1": 0.9308176100628932,
+   "memsto_cap_f1": 0.7192982456140351,
+   "wrong_tag": 5,
+   "null_lookups": 143,
+   "right_lookups": 22
+  },
+  "shift_f1": [
+   0.7747667703243003,
+   0.8134263295553618
+  ]
+ },
+ "9B|P2 few-shot fs1": {
+  "off": {
+   "f1": 0.886518771331058,
+   "em": 0.7562380038387716,
+   "cpu_cap_f1": 0.175,
+   "memsto_cap_f1": 0.905982905982906,
+   "wrong_tag": 0,
+   "null_lookups": 0,
+   "right_lookups": 165
+  },
+  "on": {
+   "f1": 0.7630453378956373,
+   "em": 0.5201535508637236,
+   "cpu_cap_f1": 0.0,
+   "memsto_cap_f1": 0.3076923076923077,
+   "wrong_tag": 0,
+   "null_lookups": 0,
+   "right_lookups": 174
+  },
+  "shift_f1": [
+   0.8708297690333618,
+   0.885934819897084
+  ]
+ },
+ "9B|P3 few-shot fs2": {
+  "off": {
+   "f1": 0.925245621529261,
+   "em": 0.8330134357005758,
+   "cpu_cap_f1": 0.975,
+   "memsto_cap_f1": 0.8034188034188035,
+   "wrong_tag": 0,
+   "null_lookups": 0,
+   "right_lookups": 154
+  },
+  "on": {
+   "f1": 0.9478186484174508,
+   "em": 0.8867562380038387,
+   "cpu_cap_f1": 0.975,
+   "memsto_cap_f1": 0.8675213675213675,
+   "wrong_tag": 0,
+   "null_lookups": 0,
+   "right_lookups": 160
+  },
+  "shift_f1": [
+   0.9181311615945135,
+   0.9284183454779256
+  ]
+ }
+}
