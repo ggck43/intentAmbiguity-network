@@ -16,4 +16,5 @@ python3 scripts/make_rejection_results.py    > /dev/null
 python3 scripts/make_midterm_tables.py
 python3 scripts/make_midterm_figures.py
 python3 scripts/make_fs_comparison_figure.py
-echo "done: results/*.json, tables/*.tex, figures/*.pdf"
+python3 scripts/verify_report_claims.py     > /dev/null
+echo "done: results/*.json (incl. report_claims.json), tables/*.tex, figures/*.pdf"
